@@ -5,7 +5,7 @@ import base64
 df = pd.read_csv('conectemos_preguntas.csv')
 pregunta = df['Preguntas'].sample(1).values[0]
 
-filepath = "https://raw.githubusercontent.com/edardvark/conectemos/main/conectm.png"
+filepath = "conectm.png"
 with open(filepath, "rb") as f:
     data = f.read()
     encoded = base64.b64encode(data)
