@@ -17,7 +17,7 @@ hasClicked = card(
   image=data,
   styles={
         "card": {
-            "width": "95%",
+            "width": "300%",
             "height": "450px",
             "border-radius": "30px",
             "box-shadow": "0 0 10px rgba(0,0,0,0.5)",
