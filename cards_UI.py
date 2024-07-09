@@ -35,7 +35,7 @@ def update_question():
     st.session_state.pregunta = df['Preguntas'].sample(1).values[0]
 
 # Path to your image
-image_path = r"C:\Users\sabdi\Documents\Conectemos\conectm.png"
+image_path = "conectm.png"
 
 # Check if file exists
 if not os.path.exists(image_path):
