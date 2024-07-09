@@ -53,7 +53,7 @@ else:
     <div class="card-container">
         <div class="card">
             <div class="card-body">
-                <p class="card-text">{st.session_state.pregunta}</p>
+                <p class="card-text">{s"test"}</p>
             </div>
         </div>
     </div>
