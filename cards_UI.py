@@ -53,7 +53,7 @@ else:
     <div class="card-container">
         <div class="card">
             <div class="card-body">
-                <p class="card-text">{s"test"}</p>
+                <p class="card-text">"test"</p>
             </div>
         </div>
     </div>
